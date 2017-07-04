@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Support Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+      h2 {
+         font-size: 24px;
+         text-transform: uppercase;
+         color: #307fc2;
+         font-weight: 600;
+         margin-bottom: 30px;
+         text-align: center;
+      }
+      h1 {
+         color: #307fc2;
+      }
+      .panel-heading {
+        color: rgba(255,255,255,1);
+        background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+        background:-webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+        background:-moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+      }
+      .title {
+        margin-top: -10px;
+        margin-bottom: 10px;
+        color: black;
+      }
+      .panel-body {
+        overflow: auto;
+        height: 150px;
+      }
+      .panel-body::-webkit-scrollbar {
+        display: none;
+      }
+      .list {
+        margin-left: -10px;
+      }
+      .panel-footer {
+        color: rgba(255,255,255,1);
+        background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+        background:-webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+        background:-moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+      }
+      #label-style {
+        margin-left: 88px;
+      }
+      #comment {
+        margin-left: 190px;
+        width: 500px;
+        overflow: auto;
+      }
+      #comment::-webkit-scrollbar {
+        display: none;
+      }
+  </style>
+</head>
+<body>
+  <!-- Container (Support Section) -->
+<div id="support" class="container-fluid">
+  <div class="text-center">
+    <h2>Support Desk</h2>
+    <h4>Choose the section you want support from</h4>
+  </div>
+  <div class="row slideanim">
+    <div class="col-sm-3 col-xs-12">
+      <div class="panel panel-default text-center">
+        <div class="panel-heading">
+          <h1>Admin</h1>
+        </div>
+        <div class="panel-body">
+          <h2 class="title">faq</h2>
+          <ul class="list">
+            <li>
+                <a href="#home" data-toggle="collapse">What does mpass aim at?</a>
+                <div id="home" class="collapse fade">
+                   It's main aim is to digitalise the country more and more.
+                </div>
+              </li>
+              <li>
+                <a href="#home1" data-toggle="collapse">How does mpass work?</a>
+                <div id="home1" class="collapse fade">
+                  Mpass firstly tries to know your work and then helps in maiking it digital , converting it to a effortless task for you.
+                </div>
+              </li>
+            </ul>
+        </div>
+        <div class="panel-footer">
+          <button type="button" class="btn btn-primary btn-block">Download Manual</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-3 col-xs-12">
+      <div class="panel panel-default text-center">
+        <div class="panel-heading">
+          <h1>Employee</h1>
+        </div>
+        <div class="panel-body">
+          <h2 class="title">faq</h2>
+          <ul class="list">
+            <li>
+               <a href="#home2" data-toggle="collapse">How many employees are employed for a particular task?</a>
+               <div id="home2" class="collapse fade">
+                  The number of employees depends on the kind of task.
+              </div>
+            </li>
+            <li>
+               <a href="#home3" data-toggle="collapse">Are the employees acknowledged about the latest technology?</a>
+               <div id="home3" class="collapse fade">
+                 Yes, they are.
+               </div>
+             </li>
+           </ul>
+        </div>
+        <div class="panel-footer">
+          <button type="button" class="btn btn-primary btn-block">Download Manual</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-3 col-xs-12">
+      <div class="panel panel-default text-center">
+        <div class="panel-heading">
+          <h1>Front-Desk</h1>
+        </div>
+        <div class="panel-body">
+          <h2 class="title">faq</h2>
+          <ul class="list">
+            <li>
+                <a href="#home4" data-toggle="collapse">What are the timing for enquiry?</a>
+                <div id="home4" class="collapse fade">
+                   11-5
+                </div>
+              </li>
+              <li>
+                <a href="#home5" data-toggle="collapse">Office opens on saturday?</a>
+                <div id="home5" class="collapse fade">
+                  No, the working days are from Monday to Friday.
+                </div>
+              </li>
+            </ul>
+        </div>
+        <div class="panel-footer">
+          <button type="button" class="btn btn-primary btn-block">Download Manual</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-3 col-xs-12">
+      <div class="panel panel-default text-center">
+        <div class="panel-heading">
+          <h1>Visitor</h1>
+        </div>
+        <div class="panel-body">
+          <h2 class="title">faq</h2>
+          <ul class="list">
+            <li>
+                <a href="#home6" data-toggle="collapse">Do we have to come to the office or the employee comes?</a>
+                <div id="home6" class="collapse fade">
+                    Firstly the client need to come to expl,ain his/her work.
+                </div>
+              </li>
+              <li>
+                <a href="#home7" data-toggle="collapse">Is it visitor-friendly?</a>
+                <div id="home7" class="collapse fade">
+                  Yes, it is.
+                </div>
+              </li>
+            </ul>
+        </div>
+        <div class="panel-footer">
+          <button type="button" class="btn btn-primary btn-block">Download Manual</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="enquiry">
+  <h2>Enquiry Form</h2>
+<form class="form-horizontal">
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="email">Email:</label>
+    <div class="col-sm-10">
+      <input type="email" class="form-control" id="email" placeholder="Enter email">
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="pwd">Password:</label>
+    <div class="col-sm-10">
+      <input type="password" class="form-control" id="pwd" placeholder="Enter password">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="comment" id="label-style">Comment:</label>
+    <textarea class="form-control" rows="4" id="comment"></textarea>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <div class="checkbox">
+        <label><input type="checkbox"> Remember me</label>
+      </div>
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <button type="submit" class="btn btn-default">Submit</button>
+    </div>
+  </div>
+</form>
+</div>
+<script>
+$(document).on('click', '.download-ss-btn', function () {
+
+    $.ajax({
+        type: "POST",
+        url: 'http://127.0.0.1:8080/utils/json/pdfGen',
+        data: {
+            data: JSON.stringify(jsonData)
+        }
+
+    }).done(function (data) {
+        var blob = new Blob([data]);
+        var link = document.createElement('a');
+        link.href = window.URL.createObjectURL(blob);
+        link.download = "Sample.pdf";
+        link.click();
+    });
+
+
+});
+
+</script>
+</body>
+</html>
